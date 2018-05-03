@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\include\contrller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\src\kinematics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\src\mot_priv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\src\motionCommandType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\src\motionConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\src\motionErrorType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\src\motionFeedback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\src\motionIner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\src\motionInterfaceBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\src\motionParameter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\src\motionParameterModify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\src\motionParameterType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\src\posemath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\src\pumakins.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\src\robotpos.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\src\sincos.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\src\tc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\src\tp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\src\Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCtrl\src\rtos.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="testMotionVS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libCtrl\src\_posemath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libCtrl\src\calculate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libCtrl\src\callback.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libCtrl\src\command.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libCtrl\src\contrller.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libCtrl\src\pumakin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libCtrl\src\sincos.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libCtrl\src\tc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libCtrl\src\tp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
